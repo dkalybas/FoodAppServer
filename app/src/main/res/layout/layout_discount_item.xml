@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="100dp"
+    >
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txt_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CODE"
+                style="@style/FirebaseUI.Text.Heading"
+                />
+
+            <TextView
+                android:id="@+id/txt_percent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PERCENT"
+                style="@style/FirebaseUI.Text.BodyText"
+                />
+
+            <TextView
+                android:id="@+id/txt_valid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Valid"
+                style="@style/TextAppearance.AppCompat.Body1"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
